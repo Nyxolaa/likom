@@ -9,7 +9,7 @@ namespace erp_likom_business
         Task<CustomerDto> GetCustomerByIdAsync(int id);
         Task<CustomerDto> GetCustomerByEmailAsync(string email);
         Task<IEnumerable<CustomerDto>> GetAllCustomersAsync();
-        Task CreateCustomerAsync(CustomerDto CustomerDto);
+        Task CreateCustomerAsync(CustomerCreateDto CustomerDto);
         Task UpdateCustomerAsync(CustomerDto CustomerDto);
         Task DeleteCustomerAsync(int id);
     }

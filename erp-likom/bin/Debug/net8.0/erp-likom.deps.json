@@ -886,12 +886,6 @@
       "System.Text.Json/8.0.4": {
         "dependencies": {
           "System.Text.Encodings.Web": "8.0.0"
-        },
-        "runtime": {
-          "lib/net8.0/System.Text.Json.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.724.31311"
-          }
         }
       },
       "System.Threading.Channels/6.0.0": {},
@@ -921,21 +915,31 @@
           "erp-likom-repository": "1.0.0"
         },
         "runtime": {
-          "erp-likom-business.dll": {}
+          "erp-likom-business.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "erp-likom-data/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8",
           "erp-likom-model": "1.0.0"
         },
         "runtime": {
-          "erp-likom-data.dll": {}
+          "erp-likom-data.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "erp-likom-model/1.0.0": {
         "runtime": {
-          "erp-likom-model.dll": {}
+          "erp-likom-model.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "erp-likom-repository/1.0.0": {
@@ -946,7 +950,10 @@
           "erp-likom-model": "1.0.0"
         },
         "runtime": {
-          "erp-likom-repository.dll": {}
+          "erp-likom-repository.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

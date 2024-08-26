@@ -36,7 +36,7 @@ namespace erp_likom_business
             return orders.Select(MapToDTO);
         }
 
-        public async Task CreateOrderAsync(OrderDto OrderDto)
+        public async Task CreateOrderAsync(OrderCreateDto OrderDto)
         {
             var order = MapToModel(OrderDto);
             await _unitOfWork.Orders.AddAsync(order);
@@ -84,6 +84,16 @@ namespace erp_likom_business
             return new Order
             {
                 Id = OrderDto.Id,
+                CustomerId = OrderDto.CustomerId,
+                OrderDate = OrderDto.OrderDate,
+                TotalAmount = OrderDto.TotalAmount,
+            };
+        }
+
+        private Order MapToModel(OrderCreateDto OrderDto)
+        {
+            return new Order
+            {
                 CustomerId = OrderDto.CustomerId,
                 OrderDate = OrderDto.OrderDate,
                 TotalAmount = OrderDto.TotalAmount,

@@ -9,7 +9,7 @@ namespace erp_likom_business
         Task<ProductDto> GetProductByIdAsync(int id);
         Task<ProductDto> GetProductByNameAsync(string name);
         Task<IEnumerable<ProductDto>> GetProductsByCategoryAsync(string category);
-        Task CreateProductAsync(ProductDto ProductDto);
+        Task CreateProductAsync(ProductCreateDto ProductDto);
         Task UpdateProductAsync(ProductDto ProductDto);
         Task DeleteProductAsync(int id);
     }

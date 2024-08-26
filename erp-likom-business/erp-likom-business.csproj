@@ -8,11 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Service\FinancialTransaction\" />
-    <Folder Include="Service\OrderProduct\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\erp-likom-model\erp-likom-model.csproj" />
     <ProjectReference Include="..\erp-likom-repository\erp-likom-repository.csproj" />
   </ItemGroup>

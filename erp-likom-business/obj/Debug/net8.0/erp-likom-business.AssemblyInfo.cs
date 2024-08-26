@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("erp-likom-business")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc3fb323d4f92c9db9d434fa0d75f2cfdf176d33")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+499339f6d3e34679491083a5b6c1a4b1c08b928c")]
 [assembly: System.Reflection.AssemblyProductAttribute("erp-likom-business")]
 [assembly: System.Reflection.AssemblyTitleAttribute("erp-likom-business")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

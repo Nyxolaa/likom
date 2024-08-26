@@ -33,7 +33,7 @@ namespace erp_likom_business
             return customers.Select(MapToCustomerDto);
         }
 
-        public async Task CreateCustomerAsync(CustomerDto CustomerDto)
+        public async Task CreateCustomerAsync(CustomerCreateDto CustomerDto)
         {
             var customer = MapToCustomer(CustomerDto);
             await _unitOfWork.Customers.AddAsync(customer);
@@ -63,7 +63,6 @@ namespace erp_likom_business
                 Name = customer.Name,
                 Email = customer.Email,
                 Address = customer.Address
-                // Diğer alanları ekleyin
             };
         }
 
@@ -77,7 +76,18 @@ namespace erp_likom_business
                 Name = CustomerDto.Name,
                 Email = CustomerDto.Email,
                 Address = CustomerDto.Address
-                // Diğer alanları ekleyin
+            };
+        }
+
+        private Customer MapToCustomer(CustomerCreateDto CustomerDto)
+        {
+            if (CustomerDto == null) return null;
+
+            return new Customer
+            {
+                Name = CustomerDto.Name,
+                Email = CustomerDto.Email,
+                Address = CustomerDto.Address
             };
         }
     }

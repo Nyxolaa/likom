@@ -6,5 +6,4 @@ public class OrderDto
     public int CustomerId { get; set; }
     public DateTime OrderDate { get; set; }
     public decimal TotalAmount { get; set; }
-    public CustomerDto Customer { get; set; }    
 }

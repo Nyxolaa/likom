@@ -1,14 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Fairu\\XOTHRS\\erp-likom\\",
+  "WorkspaceRootPath": "C:\\Fairu\\XOTHRS\\likom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|c:\\fairu\\xothrs\\erp-likom\\erp-likom-model\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{90871903-6ECA-4EF5-9554-6F0564ADF0B4}|erp-likom-business\\erp-likom-business.csproj|c:\\fairu\\xothrs\\likom\\erp-likom-business\\service\\orderproduct\\orderproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90871903-6ECA-4EF5-9554-6F0564ADF0B4}|erp-likom-business\\erp-likom-business.csproj|solutionrelative:erp-likom-business\\service\\orderproduct\\orderproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|c:\\fairu\\xothrs\\likom\\erp-likom-model\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|solutionrelative:erp-likom-model\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|c:\\fairu\\xothrs\\likom\\erp-likom-model\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|solutionrelative:erp-likom-model\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|c:\\fairu\\xothrs\\likom\\erp-likom-model\\models\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|solutionrelative:erp-likom-model\\models\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|c:\\fairu\\xothrs\\likom\\erp-likom-model\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|solutionrelative:erp-likom-model\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|c:\\fairu\\xothrs\\likom\\erp-likom-model\\dtos\\customercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|solutionrelative:erp-likom-model\\dtos\\customercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|c:\\fairu\\xothrs\\likom\\erp-likom-model\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|solutionrelative:erp-likom-model\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|c:\\fairu\\xothrs\\erp-likom\\erp-likom-model\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|solutionrelative:erp-likom-model\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|c:\\fairu\\xothrs\\likom\\erp-likom-model\\dtos\\ordercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|solutionrelative:erp-likom-model\\dtos\\ordercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|c:\\fairu\\xothrs\\likom\\erp-likom-model\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|solutionrelative:erp-likom-model\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|c:\\fairu\\xothrs\\likom\\erp-likom-model\\dtos\\orderproductdto.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|solutionrelative:erp-likom-model\\dtos\\orderproductdto.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|c:\\fairu\\xothrs\\likom\\erp-likom-model\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|solutionrelative:erp-likom-model\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|c:\\fairu\\xothrs\\likom\\erp-likom-model\\dtos\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|solutionrelative:erp-likom-model\\dtos\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D58CF71-61D6-4550-9B56-C379D7E4413C}|erp-likom\\erp-likom.csproj|c:\\fairu\\xothrs\\likom\\erp-likom\\controllers\\orderproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D58CF71-61D6-4550-9B56-C379D7E4413C}|erp-likom\\erp-likom.csproj|solutionrelative:erp-likom\\controllers\\orderproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,28 +67,160 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CustomerDto.cs",
-              "DocumentMoniker": "C:\\Fairu\\XOTHRS\\erp-likom\\erp-likom-model\\DTOs\\CustomerDto.cs",
-              "RelativeDocumentMoniker": "erp-likom-model\\DTOs\\CustomerDto.cs",
-              "ToolTip": "C:\\Fairu\\XOTHRS\\erp-likom\\erp-likom-model\\DTOs\\CustomerDto.cs",
-              "RelativeToolTip": "erp-likom-model\\DTOs\\CustomerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Title": "OrderProductService.cs",
+              "DocumentMoniker": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-business\\Service\\OrderProduct\\OrderProductService.cs",
+              "RelativeDocumentMoniker": "erp-likom-business\\Service\\OrderProduct\\OrderProductService.cs",
+              "ToolTip": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-business\\Service\\OrderProduct\\OrderProductService.cs",
+              "RelativeToolTip": "erp-likom-business\\Service\\OrderProduct\\OrderProductService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwB0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T20:14:03.699Z",
+              "WhenOpened": "2024-08-26T09:05:02.489Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Fairu\\XOTHRS\\erp-likom\\erp-likom-model\\Models\\Customer.cs",
+              "DocumentMoniker": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "erp-likom-model\\Models\\Customer.cs",
-              "ToolTip": "C:\\Fairu\\XOTHRS\\erp-likom\\erp-likom-model\\Models\\Customer.cs",
+              "ToolTip": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\Models\\Customer.cs",
               "RelativeToolTip": "erp-likom-model\\Models\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T20:14:01.769Z",
+              "WhenOpened": "2024-08-26T09:01:29.847Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "erp-likom-model\\Models\\Order.cs",
+              "ToolTip": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\Models\\Order.cs",
+              "RelativeToolTip": "erp-likom-model\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T09:01:20.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderProduct.cs",
+              "DocumentMoniker": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\Models\\OrderProduct.cs",
+              "RelativeDocumentMoniker": "erp-likom-model\\Models\\OrderProduct.cs",
+              "ToolTip": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\Models\\OrderProduct.cs",
+              "RelativeToolTip": "erp-likom-model\\Models\\OrderProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T09:01:19.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "erp-likom-model\\Models\\Product.cs",
+              "ToolTip": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\Models\\Product.cs",
+              "RelativeToolTip": "erp-likom-model\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T09:01:18.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerCreateDto.cs",
+              "DocumentMoniker": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\DTOs\\CustomerCreateDto.cs",
+              "RelativeDocumentMoniker": "erp-likom-model\\DTOs\\CustomerCreateDto.cs",
+              "ToolTip": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\DTOs\\CustomerCreateDto.cs",
+              "RelativeToolTip": "erp-likom-model\\DTOs\\CustomerCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T09:01:06.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "erp-likom-model\\DTOs\\ProductDto.cs",
+              "ToolTip": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "erp-likom-model\\DTOs\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T09:01:02.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductCreateDto.cs",
+              "DocumentMoniker": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\DTOs\\ProductCreateDto.cs",
+              "RelativeDocumentMoniker": "erp-likom-model\\DTOs\\ProductCreateDto.cs",
+              "ToolTip": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\DTOs\\ProductCreateDto.cs",
+              "RelativeToolTip": "erp-likom-model\\DTOs\\ProductCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T09:01:00.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderCreateDto.cs",
+              "DocumentMoniker": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\DTOs\\OrderCreateDto.cs",
+              "RelativeDocumentMoniker": "erp-likom-model\\DTOs\\OrderCreateDto.cs",
+              "ToolTip": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\DTOs\\OrderCreateDto.cs",
+              "RelativeToolTip": "erp-likom-model\\DTOs\\OrderCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T09:00:52.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\DTOs\\OrderDto.cs",
+              "RelativeDocumentMoniker": "erp-likom-model\\DTOs\\OrderDto.cs",
+              "ToolTip": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\DTOs\\OrderDto.cs",
+              "RelativeToolTip": "erp-likom-model\\DTOs\\OrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T09:00:48.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\DTOs\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "erp-likom-model\\DTOs\\CustomerDto.cs",
+              "ToolTip": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\DTOs\\CustomerDto.cs",
+              "RelativeToolTip": "erp-likom-model\\DTOs\\CustomerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T09:00:46.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderProductDto.cs",
+              "DocumentMoniker": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\DTOs\\OrderProductDto.cs",
+              "RelativeDocumentMoniker": "erp-likom-model\\DTOs\\OrderProductDto.cs",
+              "ToolTip": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\DTOs\\OrderProductDto.cs",
+              "RelativeToolTip": "erp-likom-model\\DTOs\\OrderProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T09:00:33.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderProductController.cs",
+              "DocumentMoniker": "C:\\Fairu\\XOTHRS\\likom\\erp-likom\\Controllers\\OrderProductController.cs",
+              "RelativeDocumentMoniker": "erp-likom\\Controllers\\OrderProductController.cs",
+              "ToolTip": "C:\\Fairu\\XOTHRS\\likom\\erp-likom\\Controllers\\OrderProductController.cs",
+              "RelativeToolTip": "erp-likom\\Controllers\\OrderProductController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAA3wC4AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T08:57:10.781Z"
             }
           ]
         }

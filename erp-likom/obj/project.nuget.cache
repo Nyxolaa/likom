@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ka9afHSSgZk=",
+  "dgSpecHash": "QXJBLZCtao8=",
   "success": true,
-  "projectFilePath": "C:\\Fairu\\XOTHRS\\erp-likom\\erp-likom\\erp-likom.csproj",
+  "projectFilePath": "C:\\Fairu\\XOTHRS\\likom\\erp-likom\\erp-likom.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

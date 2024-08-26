@@ -31,6 +31,14 @@ namespace erp_likom_business.Services
             StockQuantity = ProductDto.StockQuantity
         };
 
+        private Product ToDomainModel(ProductCreateDto ProductDto) => new Product
+        {
+            Name = ProductDto.Name,
+            Description = ProductDto.Description,
+            Price = ProductDto.Price,
+            StockQuantity = ProductDto.StockQuantity
+        };
+
         public async Task<ProductDto> GetProductByIdAsync(int id)
         {
             var product = await _unitOfWork.Products.GetByIdAsync(id);
@@ -49,7 +57,7 @@ namespace erp_likom_business.Services
             return products.Select(ToDTO);
         }
 
-        public async Task CreateProductAsync(ProductDto ProductDto)
+        public async Task CreateProductAsync(ProductCreateDto ProductDto)
         {
             var product = ToDomainModel(ProductDto);
             await _unitOfWork.Products.AddAsync(product);

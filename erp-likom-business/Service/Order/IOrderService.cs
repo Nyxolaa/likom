@@ -10,7 +10,7 @@ namespace erp_likom_business
         Task<OrderDto> GetOrderByIdAsync(int id);
         Task<IEnumerable<OrderDto>> GetAllOrdersAsync();
         Task<IEnumerable<OrderDto>> GetOrdersByCustomerIdAsync(int customerId);
-        Task CreateOrderAsync(OrderDto OrderDto);
+        Task CreateOrderAsync(OrderCreateDto OrderDto);
         Task UpdateOrderAsync(OrderDto OrderDto);
         Task DeleteOrderAsync(int id);
         Task<bool> ProcessOrderAsync(int orderId);

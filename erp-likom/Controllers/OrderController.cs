@@ -1,4 +1,6 @@
-﻿using erp_likom_model.Models;
+﻿using erp_likom_business;
+using erp_likom_model.DTOs;
+using erp_likom_model.Models;
 using erp_likom_repository.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,27 +10,26 @@ namespace erp_likom.Controllers
     [ApiController]
     public class OrderController : ControllerBase
     {
-        private readonly IUnitOfWork _unitOfWork;
+        private readonly IOrderService _service;
 
-        public OrderController(IUnitOfWork unitOfWork)
+        public OrderController(IOrderService service)
         {
-            _unitOfWork = unitOfWork;
+            _service = service;
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetOrderById(int id)
         {
-            var order = await _unitOfWork.Orders.GetByIdAsync(id);
+            var order = await _service.GetOrderByIdAsync(id);
             if (order == null) return NotFound();
             return Ok(order);
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateOrder([FromBody] Order order)
+        public async Task<IActionResult> CreateOrder([FromBody] OrderCreateDto order)
         {
-            await _unitOfWork.Orders.AddAsync(order);
-            await _unitOfWork.CompleteAsync();
-            return CreatedAtAction(nameof(GetOrderById), new { id = order.Id }, order);
+            await _service.CreateOrderAsync(order);
+            return Ok(order);
         }
 
         // PUT api/<OrderController>/5

@@ -1,4 +1,6 @@
-﻿using erp_likom_model.Models;
+﻿using erp_likom_business;
+using erp_likom_model.DTOs;
+using erp_likom_model.Models;
 using erp_likom_repository.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,17 +10,17 @@ namespace erp_likom.Controllers
     [ApiController]
     public class CustomersController : ControllerBase
     {
-        private readonly IUnitOfWork _unitOfWork;
+        private readonly ICustomerService _service;
 
-        public CustomersController(IUnitOfWork unitOfWork)
+        public CustomersController(ICustomerService service)
         {
-            _unitOfWork = unitOfWork;
+            _service = service;
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetCustomerById(int id)
         {
-            var customer = await _unitOfWork.Customers.GetByIdAsync(id);
+            var customer = await _service.GetCustomerByIdAsync(id);
             if (customer == null) return NotFound();
             return Ok(customer);
         }
@@ -26,35 +28,32 @@ namespace erp_likom.Controllers
         [HttpGet("email/{email}")]
         public async Task<IActionResult> GetCustomerByEmail(string email)
         {
-            var customer = await _unitOfWork.Customers.GetCustomerByEmailAsync(email);
+            var customer = await _service.GetCustomerByEmailAsync(email);
             if (customer == null) return NotFound();
             return Ok(customer);
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateCustomer([FromBody] Customer customer)
+        public async Task<IActionResult> CreateCustomer([FromBody] CustomerCreateDto customer)
         {
-            await _unitOfWork.Customers.AddAsync(customer);
-            await _unitOfWork.CompleteAsync();
-            return CreatedAtAction(nameof(GetCustomerById), new { id = customer.Id }, customer);
+            await _service.CreateCustomerAsync(customer);
+            return Ok(customer);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateCustomer(int id, [FromBody] Customer customer)
+        public async Task<IActionResult> UpdateCustomer(int id, [FromBody] CustomerDto customer)
         {
             if (id != customer.Id)
                 return BadRequest();
 
-            await _unitOfWork.Customers.UpdateAsync(customer);
-            await _unitOfWork.CompleteAsync();
+            await _service.UpdateCustomerAsync(customer);
             return NoContent();
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCustomer(int id)
         {
-            await _unitOfWork.Customers.DeleteAsync(id);
-            await _unitOfWork.CompleteAsync();
+            await _service.DeleteCustomerAsync(id);
             return NoContent();
         }
     }

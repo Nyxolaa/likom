@@ -9,3 +9,15 @@ D:\GithubProjects\erp-likom\erp-likom-model\obj\Debug\net8.0\erp-likom-model.dll
 D:\GithubProjects\erp-likom\erp-likom-model\obj\Debug\net8.0\refint\erp-likom-model.dll
 D:\GithubProjects\erp-likom\erp-likom-model\obj\Debug\net8.0\erp-likom-model.pdb
 D:\GithubProjects\erp-likom\erp-likom-model\obj\Debug\net8.0\ref\erp-likom-model.dll
+C:\Fairu\XOTHRS\likom\erp-likom-model\bin\Debug\net8.0\erp-likom-model.deps.json
+C:\Fairu\XOTHRS\likom\erp-likom-model\bin\Debug\net8.0\erp-likom-model.dll
+C:\Fairu\XOTHRS\likom\erp-likom-model\bin\Debug\net8.0\erp-likom-model.pdb
+C:\Fairu\XOTHRS\likom\erp-likom-model\obj\Debug\net8.0\erp-likom-model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Fairu\XOTHRS\likom\erp-likom-model\obj\Debug\net8.0\erp-likom-model.AssemblyInfoInputs.cache
+C:\Fairu\XOTHRS\likom\erp-likom-model\obj\Debug\net8.0\erp-likom-model.AssemblyInfo.cs
+C:\Fairu\XOTHRS\likom\erp-likom-model\obj\Debug\net8.0\erp-likom-model.csproj.CoreCompileInputs.cache
+C:\Fairu\XOTHRS\likom\erp-likom-model\obj\Debug\net8.0\erp-likom-model.sourcelink.json
+C:\Fairu\XOTHRS\likom\erp-likom-model\obj\Debug\net8.0\erp-likom-model.dll
+C:\Fairu\XOTHRS\likom\erp-likom-model\obj\Debug\net8.0\refint\erp-likom-model.dll
+C:\Fairu\XOTHRS\likom\erp-likom-model\obj\Debug\net8.0\erp-likom-model.pdb
+C:\Fairu\XOTHRS\likom\erp-likom-model\obj\Debug\net8.0\ref\erp-likom-model.dll

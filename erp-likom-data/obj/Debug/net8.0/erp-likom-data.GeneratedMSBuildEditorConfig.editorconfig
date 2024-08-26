@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = erp_likom_data
-build_property.ProjectDir = C:\Fairu\XOTHRS\erp-likom\erp-likom-data\
+build_property.ProjectDir = C:\Fairu\XOTHRS\likom\erp-likom-data\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

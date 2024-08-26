@@ -1,4 +1,6 @@
-﻿using erp_likom_model.Models;
+﻿using erp_likom_business;
+using erp_likom_model.DTOs;
+using erp_likom_model.Models;
 using erp_likom_repository.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,17 +11,17 @@ namespace erp_likom.Controllers
     [Route("api/[controller]")]
     public class ProductsController : ControllerBase
     {
-        private readonly IUnitOfWork _unitOfWork;
+        private readonly IProductService _service;
 
-        public ProductsController(IUnitOfWork unitOfWork)
+        public ProductsController(IProductService service)
         {
-            _unitOfWork = unitOfWork;
+            _service = service;
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetProductById(int id)
         {
-            var product = await _unitOfWork.Products.GetByIdAsync(id);
+            var product = await _service.GetProductByIdAsync(id);
             if (product == null) return NotFound();
             return Ok(product);
         }
@@ -27,7 +29,7 @@ namespace erp_likom.Controllers
         [HttpGet("name/{name}")]
         public async Task<IActionResult> GetProductByName(string name)
         {
-            var product = await _unitOfWork.Products.GetProductByNameAsync(name);
+            var product = await _service.GetProductByNameAsync(name);
             if (product == null) return NotFound();
             return Ok(product);
         }
@@ -35,34 +37,31 @@ namespace erp_likom.Controllers
         [HttpGet("category/{category}")]
         public async Task<IActionResult> GetProductsByCategory(string category)
         {
-            var products = await _unitOfWork.Products.GetProductsByCategoryAsync(category);
+            var products = await _service.GetProductsByCategoryAsync(category);
             return Ok(products);
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateProduct([FromBody] Product product)
+        public async Task<IActionResult> CreateProduct([FromBody] ProductCreateDto product)
         {
-            await _unitOfWork.Products.AddAsync(product);
-            await _unitOfWork.CompleteAsync();
-            return CreatedAtAction(nameof(GetProductById), new { id = product.Id }, product);
+            await _service.CreateProductAsync(product);
+            return Ok(product);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateProduct(int id, [FromBody] Product product)
+        public async Task<IActionResult> UpdateProduct(int id, [FromBody] ProductDto product)
         {
             if (id != product.Id)
                 return BadRequest();
 
-            await _unitOfWork.Products.UpdateAsync(product);
-            await _unitOfWork.CompleteAsync();
+            await _service.UpdateProductAsync(product);
             return NoContent();
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProduct(int id)
         {
-            await _unitOfWork.Products.DeleteAsync(id);
-            await _unitOfWork.CompleteAsync();
+            await _service.DeleteProductAsync(id);
             return NoContent();
         }
     }

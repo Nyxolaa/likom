@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Fairu\\XOTHRS\\erp-likom\\erp-likom-model\\erp-likom-model.csproj": {}
+    "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\erp-likom-model.csproj": {}
   },
   "projects": {
-    "C:\\Fairu\\XOTHRS\\erp-likom\\erp-likom-model\\erp-likom-model.csproj": {
+    "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\erp-likom-model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Fairu\\XOTHRS\\erp-likom\\erp-likom-model\\erp-likom-model.csproj",
+        "projectUniqueName": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\erp-likom-model.csproj",
         "projectName": "erp-likom-model",
-        "projectPath": "C:\\Fairu\\XOTHRS\\erp-likom\\erp-likom-model\\erp-likom-model.csproj",
+        "projectPath": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\erp-likom-model.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Fairu\\XOTHRS\\erp-likom\\erp-likom-model\\obj\\",
+        "outputPath": "C:\\Fairu\\XOTHRS\\likom\\erp-likom-model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

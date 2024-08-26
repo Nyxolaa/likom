@@ -10,14 +10,15 @@ namespace erp_likom_repository.Repositories
         public IOrderRepository Orders { get; }
         public ICustomerRepository Customers { get; }
         public IProductRepository Products { get; }
+        public IOrderProductRepository OrderProducts { get; }
 
-
-        public UnitOfWork(LikomDbContext context, IOrderRepository orderRepository, ICustomerRepository customerRepository, IProductRepository products)
+        public UnitOfWork(LikomDbContext context, IOrderRepository orderRepository, ICustomerRepository customerRepository, IProductRepository products, IOrderProductRepository orderProducts)
         {
             _context = context;
             Orders = orderRepository;
             Customers = customerRepository;
             Products = products;
+            OrderProducts = orderProducts;
         }
         public async Task<int> CompleteAsync()
         {

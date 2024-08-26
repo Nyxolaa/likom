@@ -11,7 +11,6 @@ namespace erp_likom_data
         public DbSet<Product> Products { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderProduct> OrderProducts { get; set; }
-        public DbSet<FinancialTransaction> FinancialTransactions { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -32,11 +31,6 @@ namespace erp_likom_data
                 .HasMany(p => p.OrderProducts)
                 .WithOne(op => op.Product)
                 .HasForeignKey(op => op.ProductId);
-
-            modelBuilder.Entity<FinancialTransaction>()
-                .HasOne(ft => ft.Order)
-                .WithMany(o => o.FinancialTransactions)
-                .HasForeignKey(ft => ft.OrderId);
         }
     }
 }
