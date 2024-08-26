@@ -1,0 +1,8 @@
+# Visual Studio geçici dosyalarını hariç tut
+.vs/
+*.vs/
+*.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
