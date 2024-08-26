@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GithubProjects\\erp-likom\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|d:\\githubprojects\\erp-likom\\erp-likom-model\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|solutionrelative:erp-likom-model\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|d:\\githubprojects\\erp-likom\\erp-likom-model\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57D7E1C-E560-4DE8-941C-AE46D8E00B9C}|erp-likom-model\\erp-likom-model.csproj|solutionrelative:erp-likom-model\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 205,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "D:\\GithubProjects\\erp-likom\\erp-likom-model\\DTOs\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "erp-likom-model\\DTOs\\CustomerDto.cs",
+              "ToolTip": "D:\\GithubProjects\\erp-likom\\erp-likom-model\\DTOs\\CustomerDto.cs",
+              "RelativeToolTip": "erp-likom-model\\DTOs\\CustomerDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T20:14:03.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\GithubProjects\\erp-likom\\erp-likom-model\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "erp-likom-model\\Models\\Customer.cs",
+              "ToolTip": "D:\\GithubProjects\\erp-likom\\erp-likom-model\\Models\\Customer.cs",
+              "RelativeToolTip": "erp-likom-model\\Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T20:14:01.769Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

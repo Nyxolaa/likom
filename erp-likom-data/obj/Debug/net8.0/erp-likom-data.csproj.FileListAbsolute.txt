@@ -1,0 +1,17 @@
+D:\GithubProjects\erp-likom\erp-likom-data\bin\Debug\net8.0\erp-likom-data.deps.json
+D:\GithubProjects\erp-likom\erp-likom-data\bin\Debug\net8.0\erp-likom-data.dll
+D:\GithubProjects\erp-likom\erp-likom-data\bin\Debug\net8.0\erp-likom-data.pdb
+D:\GithubProjects\erp-likom\erp-likom-data\bin\Debug\net8.0\erp-likom-model.dll
+D:\GithubProjects\erp-likom\erp-likom-data\bin\Debug\net8.0\erp-likom-model.pdb
+D:\GithubProjects\erp-likom\erp-likom-data\obj\Debug\net8.0\erp-likom-data.csproj.AssemblyReference.cache
+D:\GithubProjects\erp-likom\erp-likom-data\obj\Debug\net8.0\erp-likom-data.GeneratedMSBuildEditorConfig.editorconfig
+D:\GithubProjects\erp-likom\erp-likom-data\obj\Debug\net8.0\erp-likom-data.AssemblyInfoInputs.cache
+D:\GithubProjects\erp-likom\erp-likom-data\obj\Debug\net8.0\erp-likom-data.AssemblyInfo.cs
+D:\GithubProjects\erp-likom\erp-likom-data\obj\Debug\net8.0\erp-likom-data.csproj.CoreCompileInputs.cache
+D:\GithubProjects\erp-likom\erp-likom-data\obj\Debug\net8.0\erp-liko.EF321A8D.Up2Date
+D:\GithubProjects\erp-likom\erp-likom-data\obj\Debug\net8.0\erp-likom-data.dll
+D:\GithubProjects\erp-likom\erp-likom-data\obj\Debug\net8.0\refint\erp-likom-data.dll
+D:\GithubProjects\erp-likom\erp-likom-data\obj\Debug\net8.0\erp-likom-data.pdb
+D:\GithubProjects\erp-likom\erp-likom-data\obj\Debug\net8.0\ref\erp-likom-data.dll
+D:\GithubProjects\erp-likom\erp-likom-data\bin\Debug\net8.0\erp-likom-data.runtimeconfig.json
+D:\GithubProjects\erp-likom\erp-likom-data\obj\Debug\net8.0\erp-likom-data.genruntimeconfig.cache

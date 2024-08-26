@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>erp_likom_business</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Service\FinancialTransaction\" />
+    <Folder Include="Service\OrderProduct\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\erp-likom-model\erp-likom-model.csproj" />
+    <ProjectReference Include="..\erp-likom-repository\erp-likom-repository.csproj" />
+  </ItemGroup>
+
+</Project>
