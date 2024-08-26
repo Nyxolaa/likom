@@ -8,5 +8,7 @@
         public decimal TotalAmount { get; set; }
         public Customer Customer { get; set; }
         public ICollection<OrderProduct>? OrderProducts { get; set; }
+        public ICollection<FinancialTransaction>? FinancialTransactions { get; set; }
+
     }
 }

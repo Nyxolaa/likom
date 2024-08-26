@@ -7,6 +7,7 @@ namespace erp_likom_repository.Repositories
         ICustomerRepository Customers { get; }
         IProductRepository Products { get; }
         IOrderProductRepository OrderProducts { get; }
+        IFinancialTransactionRepository FinancialTransactions { get; }
         Task<int> CompleteAsync();
     }
 }

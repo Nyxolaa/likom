@@ -47,6 +47,38 @@ namespace erp_likom_data.Migrations
                     b.ToTable("Customers");
                 });
 
+            modelBuilder.Entity("erp_likom_model.Models.FinancialTransaction", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<decimal>("Amount")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("TransactionDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("TransactionType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("OrderId");
+
+                    b.ToTable("FinancialTransactions");
+                });
+
             modelBuilder.Entity("erp_likom_model.Models.Order", b =>
                 {
                     b.Property<int>("Id")
@@ -119,6 +151,17 @@ namespace erp_likom_data.Migrations
                     b.ToTable("Products");
                 });
 
+            modelBuilder.Entity("erp_likom_model.Models.FinancialTransaction", b =>
+                {
+                    b.HasOne("erp_likom_model.Models.Order", "Order")
+                        .WithMany("FinancialTransactions")
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Order");
+                });
+
             modelBuilder.Entity("erp_likom_model.Models.Order", b =>
                 {
                     b.HasOne("erp_likom_model.Models.Customer", "Customer")
@@ -156,6 +199,8 @@ namespace erp_likom_data.Migrations
 
             modelBuilder.Entity("erp_likom_model.Models.Order", b =>
                 {
+                    b.Navigation("FinancialTransactions");
+
                     b.Navigation("OrderProducts");
                 });
 
